@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Add To-Do Item-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
@@ -24,10 +24,14 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Add To-Do Item" id="nHO-j6-aoA">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="vHg-hY-A22"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="6JS-8I-HVC"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1655" y="416"/>
+            <point key="canvasLocation" x="2467" y="416"/>
         </scene>
         <!--To-Do List-->
         <scene sceneID="5Ah-hS-ULJ">
@@ -218,7 +222,7 @@
                     <navigationItem key="navigationItem" title="To-Do List" id="Keg-oc-vdQ">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="8CO-mT-61u">
                             <connections>
-                                <segue destination="BYZ-38-t0r" kind="show" id="vYJ-yn-URb"/>
+                                <segue destination="iqU-ET-OC3" kind="show" id="vYJ-yn-URb"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -245,6 +249,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lqx-Js-2qr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="213" y="416"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="2OE-Bi-7gr">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iqU-ET-OC3" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="uHy-Iw-1xg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Lsj-5e-lD2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GDN-bp-1PR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1655" y="416"/>
         </scene>
     </scenes>
 </document>
