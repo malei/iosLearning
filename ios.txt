@@ -34,3 +34,13 @@
 029) versatile 多才多艺的，多功能的
 030) constraint 限制
 031) intricate  复杂的，难懂的
+032) infrastructure 基础；基础设施
+033) Iphone 6plus + targets + {identity - Team [xxxx]; Deployment Info - Deployment Target: 8.1 }
+test_iphone {malei's iPhone}
+2015-07-06
+How to do?
+001) view and controller how to connect
+002) Navigation 导航
+003) segue 连续的
+
+2015-07-07
