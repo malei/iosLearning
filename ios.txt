@@ -44,3 +44,12 @@ How to do?
 003) segue 连续的
 
 2015-07-07
+001) unwind 解开 
+002) containment 控制
+003) views and view controllers in storyboards
+004) incorporate 合并，组成
+005) toggle 触发器
+006) transitions between scenes are called segues
+007) wrap 包裹覆盖
+008) drill 训练
+009) scene 场景
