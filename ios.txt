@@ -16,7 +16,8 @@
 011) xlb 这个来做
 012) recap 重点
 013) show the object library
-014) 手把手教程 https://developer.apple.com/library/ios/referencelibrary/GettingStarted/RoadMapiOS/FirstTutorial.html#//apple_ref/doc/uid/TP40011343-CH3-SW1
+014) 手把手教程 
+https://developer.apple.com/library/ios/referencelibrary/GettingStarted/RoadMapiOS/FirstTutorial.html#//apple_ref/doc/uid/TP40011343-CH3-SW1
 015) 咨询的，待客理财，等法律
 016) 光哥，资深的调研的报告，山西,上海过来一年的
 017) 移动互联网,事务,稳稳的坐
@@ -53,3 +54,4 @@ How to do?
 007) wrap 包裹覆盖
 008) drill 训练
 009) scene 场景
+
