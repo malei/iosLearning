@@ -74,3 +74,8 @@ content of an app, and controllers manage your views.
 013) mutable 可变的
 014) toggle 触发器，转换，开关
 015) ctrl+click: for help
+016) opt+click: for help
+
+2015-07-10
+001）下一阶段的任务就是找各种各样的demo熟悉和习惯之 
+002） 
