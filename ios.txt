@@ -71,3 +71,4 @@ content of an app, and controllers manage your views.
 010) encapsulates 装入胶囊；封进内部；压缩；概括
 011) scalar 标量的，数量的；梯状的，分等级的
 012) denoted 表示，象征
+013) mutable 可变的
