@@ -1,3 +1,21 @@
+资料
+001) ios开发，自学的，斯坦福的公开课就蛮不错。
+
+BOOK:
+001) start Developing iOS Apps Today
+002) Start Developing Mac Apps Today
+003) Programming with Object C
+004) Concepts in Objective-C Programmin
+005) Xcode Overview
+006) Objective-C Feature Availability Index
+007) Advanced Memory Management Programming Guide
+008) Objective-C Runtime Programming Guide 
+009) Objective-C Runtime Reference
+010) Key-Value Coding Programming Guide
+011) Concurrency Programming Guide 
+012) Transitioning to ARC Release Notes
+
+
 2015-06-30
 开始记录学习ios开发
 
@@ -78,4 +96,42 @@ content of an app, and controllers manage your views.
 
 2015-07-10
 001）下一阶段的任务就是找各种各样的demo熟悉和习惯之 
-002） 
+002）苹果的这个资料在多看几遍吧，然后找网上的资料或者买一个整理的资料
+003) ios 和后台的交互，json，http通信之类的。
+004）ios开发的老外多书籍，原版书籍
+005) Contracts 合同，契约
+006) convention 协定
+007) blueprint 蓝图，计划
+008) scratch 抓；搔（痒）；划破；划掉
+009) taxonomically 分类学
+010) Hominidae 人科
+011) hierarchical 按等级划分的
+012) asterisk 星号
+013) camel 驼峰
+014) opaque 不透明的
+015) perpetuity 永久性的
+016) refactor 重构
+017) capital 大写
+018) ascend 上升的 
+019) xcode Ox Mac :application :console terminate: main
+
+
+xcode编译路径
+http://blog.csdn.net/freedom2028/article/details/8040918
+
+2015-07-12
+001) exposed 暴露的
+002) synonymous 同义的 
+003) synthesis 合成；综合；综合分析
+004) backed 有背的；有支持的
+005) scope 范围，界限
+006) synthesize 合成，综合
+007) Concise 简明的；简要的
+008) designated 制定的，特定的
+009) bear 忍受，默认
+010) specific 特殊的
+011）local 局部的 
+012) Unretained 未保持，未保留
+013) spouse 配偶
+014) keep track of 跟上...的进展，记录
+015) category 种类，类别，范畴
