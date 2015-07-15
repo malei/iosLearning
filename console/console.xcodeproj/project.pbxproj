@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A20E7F4D1B566C9B00762178 /* c_test.c in Sources */ = {isa = PBXBuildFile; fileRef = A20E7F4B1B566C9B00762178 /* c_test.c */; };
 		A2372ADC1B515E2B00D3FECB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2372ADB1B515E2B00D3FECB /* main.m */; };
+		A29B43921B55572000992667 /* show.m in Sources */ = {isa = PBXBuildFile; fileRef = A29B43911B55572000992667 /* show.m */; };
+		A29B43951B55E8F800992667 /* my_string.m in Sources */ = {isa = PBXBuildFile; fileRef = A29B43941B55E8F800992667 /* my_string.m */; };
 		A2AFD42F1B51FE550003C5FF /* XYZPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A2AFD42E1B51FE550003C5FF /* XYZPerson.m */; };
 		A2AFD4321B520A160003C5FF /* XYZShoutingPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A2AFD4311B520A160003C5FF /* XYZShoutingPerson.m */; };
 /* End PBXBuildFile section */
@@ -25,12 +28,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A20E7F4B1B566C9B00762178 /* c_test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = c_test.c; sourceTree = "<group>"; };
+		A20E7F4C1B566C9B00762178 /* c_test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = c_test.h; sourceTree = "<group>"; };
 		A2372AD81B515E2B00D3FECB /* console */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = console; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2372ADB1B515E2B00D3FECB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A29B43901B55572000992667 /* show.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = show.h; sourceTree = "<group>"; };
+		A29B43911B55572000992667 /* show.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = show.m; sourceTree = "<group>"; };
+		A29B43931B55E8F800992667 /* my_string.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_string.h; sourceTree = "<group>"; };
+		A29B43941B55E8F800992667 /* my_string.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = my_string.m; sourceTree = "<group>"; };
 		A2AFD42D1B51FE550003C5FF /* XYZPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZPerson.h; sourceTree = "<group>"; };
 		A2AFD42E1B51FE550003C5FF /* XYZPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZPerson.m; sourceTree = "<group>"; };
 		A2AFD4301B520A160003C5FF /* XYZShoutingPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZShoutingPerson.h; sourceTree = "<group>"; };
 		A2AFD4311B520A160003C5FF /* XYZShoutingPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZShoutingPerson.m; sourceTree = "<group>"; };
+		A2D627991B566B6700806F4E /* extern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = extern.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +74,13 @@
 			isa = PBXGroup;
 			children = (
 				A2372ADB1B515E2B00D3FECB /* main.m */,
+				A20E7F4B1B566C9B00762178 /* c_test.c */,
+				A20E7F4C1B566C9B00762178 /* c_test.h */,
+				A2D627991B566B6700806F4E /* extern.h */,
+				A29B43931B55E8F800992667 /* my_string.h */,
+				A29B43941B55E8F800992667 /* my_string.m */,
+				A29B43901B55572000992667 /* show.h */,
+				A29B43911B55572000992667 /* show.m */,
 				A2AFD42D1B51FE550003C5FF /* XYZPerson.h */,
 				A2AFD42E1B51FE550003C5FF /* XYZPerson.m */,
 				A2AFD4301B520A160003C5FF /* XYZShoutingPerson.h */,
@@ -130,6 +147,9 @@
 			files = (
 				A2AFD42F1B51FE550003C5FF /* XYZPerson.m in Sources */,
 				A2AFD4321B520A160003C5FF /* XYZShoutingPerson.m in Sources */,
+				A20E7F4D1B566C9B00762178 /* c_test.c in Sources */,
+				A29B43921B55572000992667 /* show.m in Sources */,
+				A29B43951B55E8F800992667 /* my_string.m in Sources */,
 				A2372ADC1B515E2B00D3FECB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

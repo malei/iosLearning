@@ -14,6 +14,7 @@ BOOK:
 010) Key-Value Coding Programming Guide
 011) Concurrency Programming Guide 
 012) Transitioning to ARC Release Notes
+013) Blocks Programming Topics 
 
 
 2015-06-30
@@ -115,9 +116,12 @@ content of an app, and controllers manage your views.
 018) ascend 上升的 
 019) xcode Ox Mac :application :console terminate: main
 
-
 xcode编译路径
 http://blog.csdn.net/freedom2028/article/details/8040918
+
+Debug: 生成的Debug文件目录
+/Users/malei/Library/Developer/Xcode/DerivedData/Build/Products/Debug
+/Users/malei/Library/Developer/Xcode/DerivedData/console-dscdvpqlmztwqedtrbwgguciklci/Build/Products/Debug
 
 2015-07-12
 001) exposed 暴露的
@@ -135,3 +139,7 @@ http://blog.csdn.net/freedom2028/article/details/8040918
 013) spouse 配偶
 014) keep track of 跟上...的进展，记录
 015) category 种类，类别，范畴
+016) Clashes 冲突 
+
+2015-07-15
+001) ambiguity 模棱两可

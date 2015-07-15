@@ -53,4 +53,13 @@
 	NSLog(@"XYZPerson is being deallocated");
 }
 
+- (void)setValueKey {
+    NSLog(@"XYZPerson is extern");
+
+    
+}
+
+
+
+
 @end
