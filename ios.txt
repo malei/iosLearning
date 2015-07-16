@@ -15,6 +15,14 @@ BOOK:
 011) Concurrency Programming Guide 
 012) Transitioning to ARC Release Notes
 013) Blocks Programming Topics 
+014) Quartz 2D Programming Guide
+015) String Programming Guide
+016) Collections Programming Topics
+017) Property List Programming Guide
+018) Archives and Serializations Programming Guide
+019) Operation Queues
+020) Error Handling Programming Guide 
+021) Exception Programming Topics 
 
 
 2015-06-30
@@ -29,7 +37,7 @@ BOOK:
 005) revision 修订
 006) simulator 模拟器
 007) delivery 传递
-008) delegate 代表委托授权
+008) delegate 代表委托授a
 009) canvas
 010) inspector 检查员；巡视员；巡官
 011) xlb 这个来做
@@ -143,3 +151,42 @@ Debug: 生成的Debug文件目录
 
 2015-07-15
 001) ambiguity 模棱两可
+002) Class Extension: readOnly
+003) dedicated 专注的，献身的，专用的
+004) conform 遵从，使一致
+005) sufficient 充分的，足够的
+006) enumeration 计算，列举，细目
+007) Anonymity 匿名，笔者不明
+008) enumeration 计算，列举，细目
+
+2015-07-16
+001) unintentionally 非故意的
+002) subscript 下标，写在下方的
+003) retrieval 取回，检索
+004) Persist 坚持，执意.继续，持续;持久化
+005) hierarchy 等级制度
+006) hierarchies 等级，层级
+007) distinct 明确的，不同的
+008) caret  ^
+009) delegation 代表团,委派,授权,委托
+010) resultant 结果；产物；[数学] 合矢量；结式
+011) diagnose 判断，诊断
+012) intensive 稠密
+013) Simplify 简化
+014) encapsulate 概括,装入胶囊；封进内部；压缩；概括
+015) strive 奋斗；努力；力求；斗争
+016) solely 独自地；单独地；完全
+017) propagate 传送，传递
+018) descriptive 描述的，叙述的
+019) 远程调用http请求json解析
+
+remote http request
+001) sync
+002) async
+
+json
+http://blog.csdn.net/enuola/article/details/7903632
+
+http
+	Get
+	Post

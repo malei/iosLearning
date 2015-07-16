@@ -8,9 +8,17 @@
 
 #import "XYZPerson.h"
 
+//http://blog.csdn.net/yhawaii/article/details/6992094
+
+
 @interface XYZPerson() {
-    float a;
+    float value;
+
 }
-- (void)setValueKey;
+
+@property NSString * a;
+
+- (void)setValueKey ;
+- (void)setValue:(float)newValue;
 
 @end

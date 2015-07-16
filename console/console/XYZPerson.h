@@ -26,4 +26,6 @@
 - (id) init;
 - (void)dealloc;
 
+- (float)value;
+
 @end

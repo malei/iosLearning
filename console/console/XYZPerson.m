@@ -7,6 +7,7 @@
 //
 
 #import "XYZPerson.h"
+#import "extern.h"
 
 @implementation XYZPerson
 
@@ -54,12 +55,18 @@
 }
 
 - (void)setValueKey {
-    NSLog(@"XYZPerson is extern");
-
+    NSLog(@"XYZPerson is extern fuck ");
     
 }
 
+- (void)setValue:(float)newValue {
+    value = newValue;
+    NSLog(@"XYZPerson set value = %f", value);
+}
 
+- (float)value {
+    return value;
+}
 
 
 @end

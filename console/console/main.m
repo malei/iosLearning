@@ -130,21 +130,58 @@ int main(int argc, const char * argv[]) {
 	person.lastName = @"ma";
 	NSString * name = [person lastNameFirstNameString];
 	NSLog(@"XYZPerson name %@", name);
-	
-    //NSLog(@"XYZPerson person.a  %@", person.a);
-    
 
-    [person setValueKey];
+    [person setValue:123];
+    float value = [person value];
+    fprintf(stdout, "[value : = %f]\n", value);
+
+    person.a = @"hello a";
+    NSLog(@"person a = %@", person.a);
      
 	//XYZPerson *person = [[XYZPerson alloc]initWithFirstName:@"John"lastName:@"Doe"];
 	//XYZShoutingPerson *shoutingPerson = [[XYZShoutingPerson alloc]initWithFirstName:@"Monica"lastName:@"Robinson"];
 	//NSLog(@"The two people are %@ and %@", [person lastNameFirstNameString],[shoutingPerson lastNameFirstNameString]);
 
-    NSString * a;
-    NSString * b = [a upperstring];
-	NSLog(@"b name %@", b);
+    //NSString * a;
+    //NSString * b = [a upperstring];
+	//NSLog(@"b name %@", b);
     
 	//test();
+	//
+	void (^simpleBlock)(void);
+	
+	simpleBlock = ^{
+		NSLog(@"This is a block");
+	};
+
+	simpleBlock();
+    //NSString *url = @"http://wwww.baidu.com";
+    //NSString *url = @"http://0.0.0.0:8080";
+    //NSMutableURLRequest *urlRequest = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:url]];
+    //[urlRequest setHTTPMethod:@"GET"];
+    //NSData *returnData = [NSURLConnection sendSynchronousRequest:urlRequest returningResponse:nil error:nil];
+    //NSString *returnString = [[NSString alloc] initWithData:returnData encoding:NSUTF8StringEncoding];
+    //NSLog(@"%@",returnString);
+    
+    //POST 表单提交
+    //NSString *url = @"http://0.0.0.0:8080";
+    //NSMutableURLRequest *urlRequest = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:url]];
+    //NSString * BOUNDRY = @"XXDFDSFSFDSFSDD";
+    //[urlRequest setHTTPMethod:@"POST"];
+    //[urlRequest setValue: [NSString stringWithFormat:@"multipart/form-data; boundary=%@", BOUNDRY]   forHTTPHeaderField:@"Content-Type"];
+    //NSData *returnData = [NSURLConnection sendSynchronousRequest:urlRequest returningResponse:nil error:nil];
+    //NSString *returnString = [[NSString alloc] initWithData:returnData encoding:NSUTF8StringEncoding];
+    //NSLog(@"%@",returnString);
+    NSURL *url = [NSURL URLWithString:@"http://m.weather.com.cn/data/101010100.html"];
+    //定义一个NSError对象，用于捕获错误信息
+    NSError *error;
+    NSString *jsonString = [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:&error];
+    NSLog(@"jsonString--->%@",jsonString);
+    //将解析得到的内容存放字典中，编码格式为UTF8，防止取值的时候发生乱码
+    //NSDictionary *rootDic = [[CJSONDeserializer deserializer] deserialize:[jsonString dataUsingEncoding:NSUTF8StringEncoding] error:&error];
+    //因为返回的Json文件有两层，去第二层内容放到字典中去
+    //NSDictionary *weatherInfo = [rootDic objectForKey:@"weatherinfo"];
+    //NSLog(@"weatherInfo--->%@",weatherInfo);
     
     return 0;
 }
